@@ -1,12 +1,12 @@
 import React, { Component} from 'react'
 
-class QuizQuestionButton extends Component{
+class QuizQuestionButton extends Component {
   render(){
-    return (
+    return(
       <ul>
-       <li>
-        <button text= button_text> </button>
-       </li>
+      <li>
+      <button text= 'button_text'>
+      </li>
       </ul>
     )
   }
