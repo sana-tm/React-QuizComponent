@@ -2,7 +2,8 @@ import React, { Component} from 'react'
 
 class QuizQuestion extends Component{
   render(){
-    return (<main>
+    return (
+      <main>
      <section>
        <p>{this.props.quiz_question.instruction_text}</p>
      </section>
