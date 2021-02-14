@@ -12,6 +12,7 @@ class QuizQuestion extends Component{
        <ul>
         <QuizQuestionButton button_text={
         this.props.quiz_question.answer_options[0] }/>
+        <QuizQuestionButton key={index}, button_text={answer_option}>
        </ul>
      </section>
    </main>
